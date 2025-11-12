@@ -1,0 +1,12 @@
+lotto_id,data_inizio,data_fine,vitigno,vigneto,uva_input_kg,temp_media_ferment_C,brix_iniziale,brix_finale,resa_L,scarto_%,note
+LOTTO-CAS-CATARRATTO-2025-08-25,2025-08-25,2025-09-09,Catarratto,Castellana_Alcamo,3746.8,22.3,21.2,0.8,1615.3,0.296,Lotto generato automaticamente
+LOTTO-CAS-CATARRATTO-2025-09-10,2025-09-10,2025-10-15,Catarratto,Castellana_Alcamo,2180.1,21.7,21.4,0.5,909.5,0.326,Lotto generato automaticamente
+LOTTO-CAS-GRILLO-2025-08-26,2025-08-26,2025-09-11,Grillo,Castellana_Alcamo,4280.7,23.2,21.7,0.2,1859.3,0.312,Lotto generato automaticamente
+LOTTO-CAS-GRILLO-2025-09-13,2025-09-13,2025-09-13,Grillo,Castellana_Alcamo,1679.3,22.3,21.8,0.2,738.8,0.274,Lotto generato automaticamente
+LOTTO-CAS-PETIT-2025-09-08,2025-09-08,2025-09-14,Petit Verdot,Castellana_Alcamo,1326.5,22.6,22.8,0.8,550.9,0.329,Lotto generato automaticamente
+LOTTO-FAV-NERO-2025-09-01,2025-09-01,2025-10-07,Nero d'Avola,Favara,7479.9,24.4,24.4,2.9,3485.6,0.301,Lotto generato automaticamente
+LOTTO-FAV-NERO-2025-10-08,2025-10-08,2025-10-08,Nero d'Avola,Favara,1731.0,20.9,23.2,1.3,772.2,0.342,Lotto generato automaticamente
+LOTTO-FAV-SYRAH-2025-09-14,2025-09-14,2025-10-09,Syrah,Favara,7016.0,21.9,23.5,3.3,3318.9,0.285,Lotto generato automaticamente
+LOTTO-SAN-MALVASIA-2025-08-29,2025-08-29,2025-10-10,Malvasia,SanGiuseppeJato,1981.0,23.9,23.5,2.2,872.1,0.306,Lotto generato automaticamente
+LOTTO-SAN-NERO-2025-09-05,2025-09-05,2025-09-24,Nero d'Avola,SanGiuseppeJato,4695.8,24.5,24.1,3.0,2042.3,0.336,Lotto generato automaticamente
+LOTTO-SAN-SYRAH-2025-08-28,2025-08-28,2025-10-10,Syrah,SanGiuseppeJato,5401.8,24.7,23.6,3.5,2439.1,0.307,Lotto generato automaticamente
