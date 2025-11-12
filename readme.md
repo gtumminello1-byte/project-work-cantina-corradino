@@ -49,6 +49,7 @@ I dati utilizzati nella dashboard sono simulati, ma derivano da una vera intervi
 ├── lotti_fermentazione_corradino.csv # Dataset lotti 
 ├── README.md # Descrizione del progetto
 ├── img/ # Screenshot della dashboard
+└── requirements.txt #  librerie Python richieste
 
 
 ---
