@@ -1,6 +1,6 @@
 # dashboard_corradino.py
 # Dashboard per analizzare la vendemmia della Cantina Corradino
-# Avvio: streamlit run dashboard_corradino.py
+
 
 import io
 from datetime import datetime
@@ -94,7 +94,7 @@ percorso_l = st.sidebar.text_input("CSV lotti (opzionale)", "lotti_fermentazione
 df_v = None
 df_l = None
 
-# vendemmia (con fallback upload)
+# vendemmia 
 try:
     df_v = carica_csv(percorso_v, "data")
     st.sidebar.success("Vendemmia: file caricato")
@@ -107,7 +107,7 @@ except Exception as e:
             df_v["data"] = pd.to_datetime(df_v["data"], errors="coerce")
         st.sidebar.success("Vendemmia: upload riuscito")
 
-# lotti (opzionale, con fallback upload)
+# lotti 
 try:
     df_l = carica_csv(percorso_l, "data_inizio")
     st.sidebar.info("Lotti: file caricato (opzionale)")
@@ -244,7 +244,7 @@ else:
 st.markdown("---")
 
 # -------------------------
-# lotti di fermentazione (opzionale)
+# lotti di fermentazione 
 # -------------------------
 st.header("Lotti di fermentazione")
 if df_l is not None and not df_l.empty:
@@ -510,7 +510,7 @@ def build_pdf_report(df_filtrato: pd.DataFrame, df_lotti: pd.DataFrame | None,
         except Exception:
             pass
 
-    # Pagina finale: Note metodologiche (tono “da studente”)
+    # Pagina finale: Note metodologiche 
     c.showPage()
     W, H = A4
     margin = 1.5 * cm

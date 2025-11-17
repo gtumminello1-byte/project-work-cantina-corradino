@@ -1,5 +1,5 @@
 # simulatore_cantina_corradino.py
-# Simulazione del periodo di vendemmia per la Cantina Corradino (Sicilia)
+# Simulazione del periodo di vendemmia per la Cantina Corradino 
 # Autore: Giovanni Tumminello – Project Work Università Pegaso (L31)
 # Output: dati_vendemmia_corradino.csv e lotti_fermentazione_corradino.csv
 
@@ -92,9 +92,9 @@ def altri_costi(irrigato, pioggia):
     macchine = 60
     return float(costo_irrigazione + macchine)
 
-# =====================================
-# SIMULAZIONE VENDEMMIA CORRADINO
-# =====================================
+# =======================
+# SIMULAZIONE VENDEMMIA 
+# =======================
 
 def simula_vendemmia(inizio=INIZIO_VENDEMMIA, fine=FINE_VENDEMMIA):
     record = []
