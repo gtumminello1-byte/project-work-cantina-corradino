@@ -19,26 +19,37 @@ Il focus del repository è esclusivamente tecnico: uso del codice, funzioni, dip
 Struttura del progetto
 
 ├── dashboard_corradino.py             # Dashboard Streamlit (file principale)
+
 ├── simulatore_cantina_corradino.py    # Script per generare dataset simulati
+
 ├── dati_vendemmia_corradino.csv       # Dataset vendemmia simulato
+
 ├── lotti_fermentazione_corradino.csv  # Dataset lotti di fermentazione
+
 ├── requirements.txt                   # Librerie Python richieste
+
 └── README.md                          # Documentazione tecnica
 
 Tecnologie utilizzate:
 
 Python 
 Streamlit — interfaccia web della dashboard
+
 Pandas / NumPy — gestione e analisi dei dati
+
 Plotly Express — grafici interattivi
+
 ReportLab — generazione del PDF
+
 Kaleido — esportazione dei grafici in PNG
+
 io.BytesIO — buffer in memoria per l’esportazione del PDF
 
 Installazione
 
 Clona la repository:
 git clone https://github.com/tuo-username/project-work-corradino.git
+
 cd project-work-corradino
 
 Installa i requisiti:
