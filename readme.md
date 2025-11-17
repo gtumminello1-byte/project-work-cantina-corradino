@@ -1,80 +1,102 @@
 Dashboard Vendemmia – Cantina Corradino
 
-Repository tecnica del Project Work
+Project Work – Informatica per le Aziende Digitali (L-31)
+
+Questo progetto contiene una dashboard interattiva in Python che permette di analizzare i dati della vendemmia della Cantina Corradino.
+La dashboard è stata realizzata con Streamlit, Plotly, Pandas e include anche un sistema di export in PDF.
 
 
 
-Questa repository contiene:
+1. Requisiti
 
-il codice della dashboard Streamlit per l’analisi dei dati di vendemmia
+Prima di avviare il progetto serve:
 
-lo script di simulazione dei dataset (vendemmia e lotti di fermentazione)
+Python 3 (https://www.python.org
+)
 
-i file CSV generati
+Librerie Python elencate in requirements.txt
 
-i requisiti software necessari per eseguire il progetto
+Un browser (Chrome, Edge, Safari…)
 
-Il focus del repository è esclusivamente tecnico: uso del codice, funzioni, dipendenze e istruzioni operative.
 
-Struttura del progetto
 
-├── dashboard_corradino.py             # Dashboard Streamlit (file principale)
+2. Installazione del progetto
+2.1. Scaricare i file
 
-├── simulatore_cantina_corradino.py    # Script per generare dataset simulati
+Vai sulla pagina GitHub del progetto.
 
-├── dati_vendemmia_corradino.csv       # Dataset vendemmia simulato
+Clicca su Code → Download ZIP.
 
-├── lotti_fermentazione_corradino.csv  # Dataset lotti di fermentazione
+Estrai il contenuto in una cartella a scelta.
 
-├── requirements.txt                   # Librerie Python richieste
+2.2. Aprire un terminale nella cartella
 
-└── README.md                          # Documentazione tecnica
+Windows: apri la cartella → clic sulla barra del percorso → scrivi cmd → Invio.
 
-Tecnologie utilizzate:
+macOS: tasto destro sulla cartella → “Nuovo Terminale nella cartella”.
 
-Python 
-Streamlit — interfaccia web della dashboard
 
-Pandas / NumPy — gestione e analisi dei dati
 
-Plotly Express — grafici interattivi
+3. Creazione ambiente virtuale (consigliato):
 
-ReportLab — generazione del PDF
+   python -m venv .venv
 
-Kaleido — esportazione dei grafici in PNG
+Attivazione:
 
-io.BytesIO — buffer in memoria per l’esportazione del PDF
+Windows:
+.venv\Scripts\activate
 
-Installazione
+macOS/Linux:
+source .venv/bin/activate
 
-Clona la repository:
-git clone https://github.com/tuo-username/project-work-corradino.git
 
-cd project-work-corradino
 
-Installa i requisiti:
-pip install -r requirements.txt
+4. Installazione delle librerie:
 
-Avvio della dashboard:
+   pip install -r requirements.txt
 
+
+
+5. Avvio della dashboard
+
+Lanciare:
 streamlit run dashboard_corradino.py
 
-Dashboard disponibile su:
+Il browser si aprirà automaticamente su:
 http://localhost:8501
 
+Se non si apre da solo, copiare l’indirizzo dal terminale e incollarlo nel browser.
 
-Generazione dei dataset 
-Se si desidera rigenerare i CSV:
 
-python simulatore_cantina_corradino.py
 
-Lo script crea automaticamente:
+6. Caricamento dei dati
+
+La dashboard usa due file CSV:
+
 dati_vendemmia_corradino.csv
-lotti_fermentazione_corradino.csv
+
+lotti_fermentazione_corradino.csv 
+
+Se sono nella stessa cartella della dashboard, vengono caricati automaticamente.
+Altrimenti è possibile scrivere il percorso completo nella sidebar.
+
+
+
+8. Problemi comuni
+
+Streamlit non trovato → l’ambiente non è attivo.
+
+CSV non trovato → controllare che il nome o il percorso siano corretti.
+
+Pagina bianca → aspettare qualche secondo o premere Ctrl+F5.
+
 
 
 Autore
 
 Giovanni Tumminello matr. 0312200110
-Corso di Laurea L31 – Informatica per le aziende digitali
-Università Pegaso – A.A. 2024/2025
+Informatica per le aziende digitali (L-31) 
+Università Telematica Pegaso - A.A. 2024/25
+
+
+
