@@ -3,100 +3,86 @@ Dashboard Vendemmia – Cantina Corradino
 Project Work – Informatica per le Aziende Digitali (L-31)
 
 Questo progetto contiene una dashboard interattiva in Python che permette di analizzare i dati della vendemmia della Cantina Corradino.
-La dashboard è stata realizzata con Streamlit, Plotly, Pandas e include anche un sistema di export in PDF.
+La dashboard è stata realizzata con Streamlit, Plotly, Pandas e include anche un sistema di esportazione in PDF.
 
+Requisiti
 
-
-1. Requisiti
-
-Prima di avviare il progetto serve:
+Prima di avviare il progetto è necessario avere:
 
 Python 3 (https://www.python.org
 )
 
-Librerie Python elencate in requirements.txt
+Le librerie Python elencate nel file requirements.txt
 
-Un browser (Chrome, Edge, Safari…)
+Un browser aggiornato (Chrome, Edge, Safari)
 
+Installazione del progetto
+1. Scaricare i file
 
+Accedere alla pagina GitHub del progetto.
 
-2. Installazione del progetto
-2.1. Scaricare i file
+Cliccare su Code → Download ZIP.
 
-Vai sulla pagina GitHub del progetto.
+Estrarre il contenuto in una cartella a scelta.
 
-Clicca su Code → Download ZIP.
+2. Aprire il terminale nella cartella del progetto
 
-Estrai il contenuto in una cartella a scelta.
+Windows: aprire la cartella → cliccare sulla barra del percorso → digitare cmd → premere Invio.
 
-2.2. Aprire un terminale nella cartella
+macOS: clic destro sulla cartella → selezionare Nuovo Terminale nella cartella.
 
-Windows: apri la cartella → clic sulla barra del percorso → scrivi cmd → Invio.
+Creazione dell’ambiente virtuale (consigliato)
+python -m venv .venv
 
-macOS: tasto destro sulla cartella → “Nuovo Terminale nella cartella”.
-
-
-
-3. Creazione ambiente virtuale (consigliato):
-
-   python -m venv .venv
-
-Attivazione:
+Attivazione
 
 Windows:
+
 .venv\Scripts\activate
 
+
 macOS/Linux:
+
 source .venv/bin/activate
 
+Installazione delle librerie necessarie
+pip install -r requirements.txt
 
+Avvio della dashboard
 
-4. Installazione delle librerie:
+Per eseguire la dashboard:
 
-   pip install -r requirements.txt
-
-
-
-5. Avvio della dashboard
-
-Lanciare:
 streamlit run dashboard_corradino.py
 
-Il browser si aprirà automaticamente su:
+
+Il browser dovrebbe aprirsi automaticamente all’indirizzo:
+
 http://localhost:8501
 
-Se non si apre da solo, copiare l’indirizzo dal terminale e incollarlo nel browser.
 
+Se non si apre, copiare l’indirizzo dal terminale e incollarlo manualmente nel browser.
 
+Caricamento dei dati
 
-6. Caricamento dei dati
-
-La dashboard usa due file CSV:
+La dashboard utilizza i seguenti file CSV:
 
 dati_vendemmia_corradino.csv
 
 lotti_fermentazione_corradino.csv 
 
-Se sono nella stessa cartella della dashboard, vengono caricati automaticamente.
-Altrimenti è possibile scrivere il percorso completo nella sidebar.
+Se i file si trovano nella stessa cartella dello script, vengono caricati automaticamente.
+In caso contrario, è possibile indicare il percorso completo tramite la sidebar dell’applicazione.
 
+Problemi comuni
 
+Streamlit non trovato → l’ambiente virtuale potrebbe non essere attivo.
 
-8. Problemi comuni
+CSV non trovato → verificare che il nome del file e il percorso siano corretti.
 
-Streamlit non trovato → l’ambiente non è attivo.
-
-CSV non trovato → controllare che il nome o il percorso siano corretti.
-
-Pagina bianca → aspettare qualche secondo o premere Ctrl+F5.
-
-
+Pagina bianca → attendere alcuni secondi o ricaricare con Ctrl+F5.
 
 Autore
 
-Giovanni Tumminello matr. 0312200110
-Informatica per le aziende digitali (L-31) 
-Università Telematica Pegaso - A.A. 2024/25
-
-
-
+Giovanni Tumminello – matricola 0312200110
+Corso di Laurea in Informatica per le Aziende Digitali (L-31)
+Università Telematica Pegaso – A.A. 2024/2025
